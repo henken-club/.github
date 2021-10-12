@@ -14,7 +14,7 @@
 
 - https://hito-horobe.net/articles/henken-hondana
 
-## リポジトリ
+## リポジトリ/技術スタック
 
 - フロントエンド
   - [web-frontend]
@@ -78,7 +78,6 @@
 [![typescript-img]][typescript]
 [![react-img]][react]
 [![nextjs-img]][nextjs]
-
 [![urql-img]][urql]
 [![graphql-img]][graphql]
 [![tailwindcss-img]][tailwindcss]
@@ -95,7 +94,6 @@ Web フロントエンド．
 
 [![typescript-img]][typescript]
 [![nestjs-img]][nestjs]
-
 [![apollo-img]][apollo]
 [![graphql-img]][graphql]
 
@@ -107,7 +105,6 @@ Web フロントエンド．
 
 [![typescript-img]][typescript]
 [![nestjs-img]][nestjs]
-
 [![apollo-img]][apollo]
 [![graphql-img]][graphql]
 [![grpc-img]][grpc]
@@ -122,7 +119,6 @@ Web フロントエンド．
 
 [![typescript-img]][typescript]
 [![nestjs-img]][nestjs]
-
 [![apollo-img]][apollo]
 [![graphql-img]][graphql]
 [![grpc-img]][grpc]
@@ -137,13 +133,17 @@ Web フロントエンド．
 
 [![typescript-img]][typescript]
 [![nestjs-img]][nestjs]
-
 [![apollo-img]][apollo]
 [![graphql-img]][graphql]
 [![grpc-img]][grpc]
 [![meilisearch-img]][meilisearch]
 
 コンテンツ及びユーザーの検索の為の Apollo Federation GraphQL サーバ．
+
+### XaaS / Infra
+
+- ユーザ認証周りに[Auth0](https://auth0.com)を利用しています．
+- CI/CD 周りに[GitHub Actions](https://docs.github.com/actions)を利用しています．
 
 ## 参加
 
