@@ -19,10 +19,7 @@
 - フロントエンド
   - [web-frontend]
 - バックエンド
-  - [bff]
-  - [main-backend]
-  - [content-backend]
-  - [search-backend]
+  - [backend]
 
 <!-- lang -->
 
@@ -88,58 +85,23 @@
 
 Web フロントエンド．
 
-### [bff]
+### [backend]
 
-[bff]: https://github.com/henken-club/main-backend
-
-[![typescript-img]][typescript]
-[![nestjs-img]][nestjs]
-[![apollo-img]][apollo]
-[![graphql-img]][graphql]
-
-フロントエンド側と下記のバックエンド側の間に入る Apollo Gateway サーバ．認証などの処理もここで行う．
-
-### [main-backend]
-
-[main-backend]: https://github.com/henken-club/main-backend
+[backend]: https://github.com/henken-club/backend
 
 [![typescript-img]][typescript]
+
 [![nestjs-img]][nestjs]
 [![apollo-img]][apollo]
-[![graphql-img]][graphql]
-[![grpc-img]][grpc]
 [![prisma-img]][prisma]
-[![postgresql-img]][postgresql]
 
-ユーザ管理，偏見や偏見への回答に関する処理の為などのメインロジックの Apollo Federation GraphQL サーバ．
-
-### [content-backend]
-
-[content-backend]: https://github.com/henken-club/content-backend
-
-[![typescript-img]][typescript]
-[![nestjs-img]][nestjs]
-[![apollo-img]][apollo]
-[![graphql-img]][graphql]
+[![graphql-img]][graphql] 
 [![grpc-img]][grpc]
-[![prisma-img]][prisma]
 [![postgresql-img]][postgresql]
-
-コンテンツ及びコンテンツ同士の関係性管理の為の Apollo Federation GraphQL サーバ．
-
-### [search-backend]
-
-[search-backend]: https://github.com/henken-club/search-backend
-
-[![typescript-img]][typescript]
-[![nestjs-img]][nestjs]
-[![apollo-img]][apollo]
-[![graphql-img]][graphql]
-[![grpc-img]][grpc]
 [![meilisearch-img]][meilisearch]
 
-コンテンツ及びユーザーの検索の為の Apollo Federation GraphQL サーバ．
-
+バックエンド側のモノレポ．
+ 
 ### XaaS / Infra
 
 - ユーザ認証周りに[Auth0](https://auth0.com)を利用しています．
